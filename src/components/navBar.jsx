@@ -6,10 +6,17 @@ const Navbar = () => {
   return (
     <div>
       <div className="navfather">
-        <div className="leftside">
-        <Glitch alphabet buffer={6} text={"FUTURE"} />
+        <motion.div className="leftside"
+            whileHover={{
+                x:2
+            }}
+            whileTap={{
+                x:0
+            }}
+        >
+            <Glitch alphabet buffer={6} text={"FUTURE"} />
           <span className='yellowlogo'>GYM</span>
-        </div>
+        </motion.div>
         <div className="rightside">
            <motion.div className="homenavigation"
               transition={{
@@ -20,7 +27,7 @@ const Navbar = () => {
                 x:5,
               }}
               whileTap={{
-                scale:0.8,
+                x:0
               }}
            >
             HOME
@@ -35,7 +42,7 @@ const Navbar = () => {
               x:5,
             }}
             whileTap={{
-              scale:0.8,
+              x:0
             }
             }>
             ABOUT
@@ -50,7 +57,7 @@ const Navbar = () => {
               x:5,
             }}
             whileTap={{
-              scale:0.8,
+              x:0
             }}>
             SERVICE
            </motion.div>
@@ -64,7 +71,7 @@ const Navbar = () => {
                 x:5,
               }}
               whileTap={{
-                scale:0.8,
+                x:0
               }}>
             CONTACT
            </motion.div>

@@ -12,18 +12,19 @@
 .leftside{
     justify-content: start;
     margin-left: 10%;
+    font-size: medium;
 }
 .rightside{
     
     width: 400px;
     height: 30px;
-    margin-left: 35%;
+    margin-left: 55%;
 }
 .rightside{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: smaller;
+    font-size: medium;
 }
 .homenavigation{
     margin-left: 10px;
