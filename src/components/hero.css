@@ -1,0 +1,124 @@
+.parrent{
+    display: flex;
+    justify-content: center;
+    height: 40rem;
+}
+.leftsideH{
+    
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.rightsideH{
+    display: flex;
+    flex-direction:column;
+    width: 35%;
+}
+.heroquote{
+    width: 50%;
+    font-size: x-small;
+}
+.daysworkout{
+    color: orange;
+}
+.heroheader{
+    font-size: 1.6rem;
+}
+.mainimage{
+    height: 2rem;
+}
+.rightsideH{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.orangecircle{
+    width: 20rem;
+    height: 20rem;
+    border: 1px solid orange;
+    background-color: orange;
+    position: relative;
+    margin-left: 130px;
+    border-radius: 50%;
+    -webkit-box-shadow: 1px 2px 61px -1px rgba(0,184,235,1);
+    -moz-box-shadow: 1px 2px 61px -1px rgba(0,184,235,1);
+    box-shadow: 1px 2px 61px -1px rgba(0,184,235,1);
+}
+.mainimage{
+    position: absolute;
+}
+.orangecircleparrent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.buttonhero{
+margin-top: 3rem;
+}
+.blueherobtn{
+    width: 7rem;
+    height: 3rem;
+    border-radius: 30px;
+    border: none;
+    background-color: #0088fe;
+    color: white;
+    font-size:small;
+    transition-duration:0.6s ;
+}
+.blueherobtn:hover{
+    -webkit-box-shadow: 1px 2px 35px -4px rgba(0,184,235,1);
+    -moz-box-shadow: 1px 2px 35px -4px rgba(0,184,235,1);
+    box-shadow: 1px 2px 35px -4px rgba(0,184,235,1);
+}
+
+@media (max-width: 768px) {
+    .parrent{
+        flex-direction: column-reverse;
+        
+    }
+   
+    .rightsideH{
+        width: 100%;
+    }
+    
+    .mainimageofhero{
+        height: 300px;
+    }
+    .orangecircle{
+        width: 12rem;
+        height: 12rem;
+    }
+    .leftsideH{
+        width: 99%;
+
+       
+    }
+    .leftcontent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .heroheader{
+        font-size: 1rem;
+    }
+    .heroquote{
+        width: 100%;
+    }
+    .rightsideH{
+        margin-bottom: 40%;
+    }
+    .orangecircle{
+        margin-top: 50px;
+        margin-right: 23%;
+        width: 19rem;
+    }
+    .orangecircleparrent{
+        width: 99%;
+    }
+    
+}

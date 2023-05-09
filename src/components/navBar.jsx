@@ -18,6 +18,9 @@ const Navbar = () => {
           <span className='yellowlogo'>GYM</span>
         </motion.div>
         <div className="rightside">
+          <div className="navaftermediaquery">
+          <i class="fa-solid fa-bars"></i>
+          </div>
            <motion.div className="homenavigation"
               transition={{
                 type:"spring",

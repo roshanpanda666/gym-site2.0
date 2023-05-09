@@ -1,0 +1,110 @@
+.programparrent{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.orangecoloredprogram{
+    color: orange;
+    margin-left: 4px;
+   
+}
+.upperheader{
+    width: 100%;
+}
+.downdivp{
+    width: auto;
+    height: 30rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.fourcontainer{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: auto;
+    height: 40rem;
+}
+.container{
+    width: 15rem;
+    height: 20rem;
+    border: 1px solid #2b2a54;
+    background-color: #2b2a54;
+    margin: 20px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    transition-duration: 300ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 80px;
+}
+.container:hover{
+    -webkit-box-shadow: 1px 2px 35px -4px rgb(0, 125, 235);
+    -moz-box-shadow: 1px 2px 35px -4px rgb(0, 121, 235);
+    box-shadow: 1px 2px 35px -4px rgb(0, 129, 235);
+}
+.communityico{
+    width: 40px;
+    height: 40px;
+    background-color: #0088fe;
+    border-radius: 30%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.program1content{
+    margin-bottom: 30px;
+    font-size: small;
+    color: grey;
+}
+.cont1{
+    display: flex;
+}
+.cont2{
+    display: flex;
+}
+.ourprogram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -70px;
+}
+@media  (max-width: 700px) {
+    .container{
+        width: 10rem;
+        height: 15rem;
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        margin-left: 20px;
+    }
+   .cont1{
+    flex-direction: column;
+    margin-top: 80px;
+   }
+   .cont2{
+    flex-direction: column;
+    margin-top: 80px;
+   }
+   .downdivp{
+    height: 40rem;
+    width: auto;
+    margin-top: 80px;
+   }
+   .fourcontainer{
+    width: 100%;
+   }
+   .ourprogram{
+    margin-top: 100px;
+    margin-bottom: -140px;
+   }
+    
+}
