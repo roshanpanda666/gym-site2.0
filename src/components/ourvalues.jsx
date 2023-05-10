@@ -53,6 +53,7 @@ const Ourvalues = () => {
                         <i class="fa-solid fa-heart"></i>
                     </div>
                         VALUE 1
+                        
                         <div className="valuecaption">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa accusamus a sint?
                         </div>

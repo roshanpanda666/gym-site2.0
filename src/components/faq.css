@@ -33,8 +33,28 @@
 .boxfaq{
     width: 33rem;
     height: 5rem;
-    border: 1px solid red;
+
     margin-bottom: 20px;
+}
+.boxfaq{
+    display: flex;
+   
+    background-color: #2b2a54;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+.faqtxt{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 20px;
+}
+.thesearchbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    color: #0088fe;
 }
 
 @media (max-width: 700px){

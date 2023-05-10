@@ -1,0 +1,56 @@
+.fathertestice{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.testiheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: orange;
+    margin-bottom: 30px;
+}
+.testibody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 40%;
+    height:10rem;
+    background-color: #2b2a54;
+    border-radius: 30px;
+}
+.peopleico{
+    margin-top: -10px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    background-color: rgb(0, 102, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testibutton{
+    margin-top: 30px;
+    background-color: #2b2a54;
+    border: none;
+    color: #0088fe;
+}
+@media (max-width: 600px) {
+    .testibody{
+        width: 80%;
+        height: 8rem;
+    }
+    .peopleico{
+        margin-top: 0px;
+        background-color:#2b2a54;
+    }
+    .testicontent{
+        font-size: 10px;
+    }
+}

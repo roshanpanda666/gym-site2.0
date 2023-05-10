@@ -42,7 +42,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-left: 80px;
+    margin-left: 100px;
 }
 .container:hover{
     -webkit-box-shadow: 1px 2px 35px -4px rgb(0, 125, 235);
@@ -80,11 +80,11 @@
 }
 @media  (max-width: 700px) {
     .container{
-        width: 10rem;
+        width: 9.5rem;
         height: 15rem;
         border-top-left-radius: 30px;
         border-bottom-right-radius: 30px;
-        margin-left: 20px;
+        margin-left: 10px;
     }
    .cont1{
     flex-direction: column;
