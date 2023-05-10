@@ -106,5 +106,8 @@ flex-direction: column;
         text-align: center;
         font-size: smaller;
     }
-    
+    .rightvalueheader{
+       
+        text-align: center;
+    }
 }
