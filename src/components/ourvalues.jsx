@@ -9,14 +9,17 @@ const Ourvalues = () => {
         <div className="leftsidevalue">
             <motion.img src="values.jpg" alt="" className='valueimg' 
             initial={{
-                y:300
+                y:-300,
+                opacity:0.5
             }}
             transition={{
-                stiffness:500
+                type:"spring",
+                stiffness:30
             }}
             
             whileInView={{
-                y:1
+                y:1,
+                opacity:1.5
             }}
             />
         </div>
@@ -40,11 +43,17 @@ const Ourvalues = () => {
                     }}
                     whileInView={{
                         y:1,
-                        rotateX:160,
-                        rotatey:160,
+                        rotateX:380,
+                        rotatey:380,
                         
                     }}
-                    >
+                    > <div className="hearticon">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                        VALUE 1
+                        <div className="valuecaption">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa accusamus a sint?
+                        </div>
 
                     </motion.div>
                     <motion.div className="valuecon"
@@ -57,11 +66,17 @@ const Ourvalues = () => {
                     }}
                     whileInView={{
                         y:1,
-                        rotateX:-160,
-                        rotatey:-160,
+                        rotateX:-380,
+                        rotatey:-380,
                         
                     }}>
-                        
+                        <div className="hearticon">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                        VALUE 2
+                        <div className="valuecaption">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa accusamus a sint?
+                        </div>
                     </motion.div>
                 </div>
                 <div className="conv2">
@@ -75,12 +90,18 @@ const Ourvalues = () => {
                     }}
                     whileInView={{
                         y:1,
-                        rotateX:160,
-                        rotatey:160,
+                        rotateX:380,
+                        rotatey:380,
                         
                     }}
                     >
-                    
+                        <div className="hearticon">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    VALUE 3
+                    <div className="valuecaption">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa accusamus a sint?
+                        </div>
                     </motion.div>
                     <motion.div className="valuecon"
                     initial={{
@@ -92,12 +113,18 @@ const Ourvalues = () => {
                     }}
                     whileInView={{
                         y:1,
-                        rotateX:-160,
-                        rotatey:-160,
+                        rotateX:-380,
+                        rotatey:-380,
                         
                     }}
                     >
-                        
+                        <div className="hearticon">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                        VALUE 4
+                        <div className="valuecaption">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa accusamus a sint?
+                        </div>
                     </motion.div>
                 </div>
                 
