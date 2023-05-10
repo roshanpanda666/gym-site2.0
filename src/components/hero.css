@@ -87,10 +87,12 @@ margin-top: 3rem;
     
     .mainimageofhero{
         height: 300px;
+        margin-top: -10px;
     }
     .orangecircle{
         width: 12rem;
         height: 12rem;
+        margin-bottom: -100px;
     }
     .leftsideH{
         width: 99%;
