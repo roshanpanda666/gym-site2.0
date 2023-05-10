@@ -1,0 +1,68 @@
+.faqfather{
+    display: flex;
+    flex-direction: column;
+}
+.faqheader{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.faqw{
+    color: orange;
+    margin-left: 22rem;
+    
+}
+.faqboxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.faqboxg1{
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+}
+.faqboxg2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+.boxfaq{
+    width: 33rem;
+    height: 5rem;
+    border: 1px solid red;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 700px){
+    .faqboxes{
+        flex-direction: column;
+        
+    }
+    .faqheader{
+        justify-content: center;
+    }
+    .faqw{
+        margin-left: 0rem;
+    }
+    .faqboxg1{
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+    .faqboxg2{
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+    .boxfaq{
+        width:20rem
+    }
+}

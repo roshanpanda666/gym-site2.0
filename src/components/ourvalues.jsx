@@ -25,7 +25,7 @@ const Ourvalues = () => {
         </div>
         <div className="rightsidevalue">
             <div className="rightvalueheader">
-                <div className="logoheart"><Glitch alphabet buffer={6} text={"OUR"} /><span className='orangevalue'>VALUES</span></div>
+             <div className="logoheart"><Glitch alphabet buffer={6} text={"OUR"} /><span className='orangevalue'>VALUES</span></div>
                 
             </div>
             <div className="valuescaption">
@@ -35,7 +35,8 @@ const Ourvalues = () => {
                 <div className="conv1">
                     <motion.div className="valuecon"
                     initial={{
-                        y: -100,
+                        
+                        opacity:0,
                     }}
                     transition={{
                         type: "spring",
@@ -45,6 +46,7 @@ const Ourvalues = () => {
                         y:1,
                         rotateX:380,
                         rotatey:380,
+                        opacity:1.5
                         
                     }}
                     > <div className="hearticon">
@@ -58,7 +60,7 @@ const Ourvalues = () => {
                     </motion.div>
                     <motion.div className="valuecon"
                     initial={{
-                        y: 100,
+                        opacity:0,
                     }}
                     transition={{
                         type: "spring",
@@ -68,6 +70,7 @@ const Ourvalues = () => {
                         y:1,
                         rotateX:-380,
                         rotatey:-380,
+                        opacity:1.5
                         
                     }}>
                         <div className="hearticon">
@@ -82,7 +85,7 @@ const Ourvalues = () => {
                 <div className="conv2">
                     <motion.div className="valuecon"
                     initial={{
-                        y: -100,
+                        opacity:0,
                     }}
                     transition={{
                         type: "spring",
@@ -92,6 +95,7 @@ const Ourvalues = () => {
                         y:1,
                         rotateX:380,
                         rotatey:380,
+                        opacity:1.5
                         
                     }}
                     >
@@ -105,7 +109,7 @@ const Ourvalues = () => {
                     </motion.div>
                     <motion.div className="valuecon"
                     initial={{
-                        y: 100,
+                        opacity:0
                     }}
                     transition={{
                         type: "spring",
@@ -115,7 +119,7 @@ const Ourvalues = () => {
                         y:1,
                         rotateX:-380,
                         rotatey:-380,
-                        
+                        opacity:1.5
                     }}
                     >
                         <div className="hearticon">

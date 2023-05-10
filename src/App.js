@@ -5,6 +5,7 @@ import Navbar from './components/navBar'
 import Hero from './components/hero'
 import Ourprograms from './components/ourprograms'
 import Ourvalues from './components/ourvalues'
+import Faq from './components/faq'
 const App = () => {
   return (
     <div>
@@ -13,6 +14,7 @@ const App = () => {
       <Hero></Hero>
       <Ourprograms></Ourprograms>
       <Ourvalues></Ourvalues>
+      <Faq></Faq>
     </div>
   )
 }
