@@ -44,13 +44,68 @@
     margin-left: 20px;
 
 }
+.navaftermediaquery{
+    margin-bottom: 20px;
+    position: static;
+}
+.aftermobiletransform{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    z-index: 100;
+    margin-left: -180px;
+    position: absolute;
+    height: 250px;
+    width: 200px;
+    border:1px solid red;
+    background-color: #161436;
+    display: block;
+}
+.noaftermobiletransform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    z-index: 100;
+    margin-left: -180px;
+    position: absolute;
+    height: 250px;
+    width: 200px;
 
+    background-color: #161436;
+    display: none;
+}
+.homenavigatio{
+    margin-bottom: 20px;
+}
+.aboutnavigatio{
+    margin-bottom: 20px;
+
+}
+.servicesnavigatio{
+    margin-bottom: 20px;
+}
+.contactnavigatio{
+    margin-bottom: 20px;
+
+}
+.lcosebutton{
+    background-color: #161436;
+    border: none;
+    margin-left: 160px;
+    color: orange;
+}
 
 @media screen and (max-width: 700px) {
     .rightside{
         margin-left: 20%;
     }
     .navaftermediaquery{
+        margin-top: 20px;
         margin-left: 80%;
         display: block;
     }

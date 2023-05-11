@@ -1,0 +1,81 @@
+.aboutfather{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30rem;
+
+}
+.headerabout{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+    margin-bottom: 2%;
+    color: orange;
+}
+.header{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+
+
+    
+}
+.imgexebala{
+    height: 20rem;
+}
+.abouttxt{
+    margin-top: 1rem;
+}
+.maincontentabout{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.content1{
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    height: 36rem;
+    margin-top: 2rem;
+}
+.aboutusimg{
+    margin-left: 10rem;
+    height: 30rem;
+}
+.words{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 3rem;
+    width: 60%;
+
+}
+
+@media (max-width: 600px) {
+    .content1{
+        flex-direction: column;
+    }
+    .aboutusimg{
+        margin-top: 3rem;
+        margin-left: 0px;
+    }
+    .words{
+        width: 100%;
+        margin-top: 3rem;
+        margin-left: 0px;
+    }
+    .headerabout{
+        margin-left: 0px;
+        margin-right: 0px;
+        justify-content: center;
+        text-align: center;
+    }
+    .imgexebala{
+        margin-top: 2rem;
+        height: 10rem;
+    }
+}

@@ -8,6 +8,8 @@ import Ourvalues from './components/ourvalues'
 import Faq from './components/faq'
 import Testimonials from './components/testimonials'
 import Footer from './components/footer'
+import Gotoupbutton from './components/Gotoupbutton'
+import About from './components/about'
 const App = () => {
   return (
     <div>
@@ -18,7 +20,11 @@ const App = () => {
       <Ourvalues></Ourvalues>
       <Faq></Faq>
       <Testimonials></Testimonials>
+      <Gotoupbutton></Gotoupbutton>
+      <About></About>
+
       <Footer></Footer>
+      
     </div>
   )
 }

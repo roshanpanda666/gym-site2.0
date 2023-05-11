@@ -1,0 +1,12 @@
+.buttonfather{
+    display: flex;
+    justify-content: flex-end;
+}
+.buttontotop{
+    
+    font-size: larger;
+    border: none;
+    background-color: #161436;
+    margin-right:5% ;
+    color: #0088fe;
+}
