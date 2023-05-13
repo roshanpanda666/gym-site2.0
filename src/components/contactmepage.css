@@ -1,0 +1,71 @@
+.headercontactme{
+    color: orange;
+}
+.contactchild{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contactfather{
+    margin-top: 30px;
+
+}
+.gmaildiv{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.gmailtxt{
+    color: #0088fe;
+}
+.yourname{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #161436;
+    border-bottom-color: #0088fe;
+    color: orange;
+}
+.yourgmail{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #161436;
+    border-bottom-color: #0088fe;
+    color: orange;
+    width: 13rem;
+}
+.yourmassage{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #161436;
+    border-bottom-color: #0088fe;
+    color: orange;
+    width: 11.8rem;
+}
+.iconscontact{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+    color: orange;
+}
+.iconsparrent{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 768px) {
+    .yourgmail{
+        width: 100%;
+    }.yourmassage{
+        width: 100%;
+    }
+    .iconscontact{
+        width: 60%;
+    }
+}

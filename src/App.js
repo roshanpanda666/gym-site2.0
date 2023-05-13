@@ -11,6 +11,7 @@ import Footer from './components/footer'
 import Gotoupbutton from './components/Gotoupbutton'
 import About from './components/about'
 import Services from './components/services'
+import Contactmepage from './components/contactmepage'
 const App = () => {
   return (
     <div>
@@ -23,7 +24,8 @@ const App = () => {
       <Testimonials></Testimonials>
       <About></About>
       <Services></Services>
-  
+      <Contactmepage></Contactmepage>
+      
       <Gotoupbutton></Gotoupbutton>
       <Footer></Footer>
       

@@ -10,6 +10,10 @@ const Navbar = () => {
   const servicerollup=()=>{
     window.scrollTo({top:3500,left:0,behavior:'smooth'})
   }
+
+  const contactscrool=()=>{
+    window.scrollTo({top:4500,left:0,behavior:'smooth'})
+  }
   
   const showphnavi=()=>{
     
@@ -97,7 +101,7 @@ const Navbar = () => {
             SERVICE
            </motion.div>
 
-           <motion.div className="contactnavigatio"
+           <motion.div className="contactnavigatio" onClick={contactscrool}
               transition={{
                 type:"spring",
                 stiffness:100
@@ -159,7 +163,7 @@ const Navbar = () => {
             SERVICE
            </motion.div>
 
-           <motion.div className="contactnavigation"
+           <motion.div className="contactnavigation" onClick={contactscrool}
               transition={{
                 type:"spring",
                 stiffness:100

@@ -26,6 +26,7 @@ const Faq = () => {
             y:0
           }}
           >
+            
               <div className="boxfaq">
                 <div className="faqtxt">
                 How do i boil fat ?
@@ -35,6 +36,9 @@ const Faq = () => {
                 </div>
                 
               </div>
+              
+              
+                
               <div className="boxfaq">
               <div className="faqtxt">
                 How do i build more muscle ?
