@@ -7,6 +7,10 @@ const Navbar = () => {
   const aboutscrool=()=>{
     window.scrollTo({top:2600,left:0,behavior:'smooth'})
   }
+  const servicerollup=()=>{
+    window.scrollTo({top:3500,left:0,behavior:'smooth'})
+  }
+  
   const showphnavi=()=>{
     
     show("aftermobiletransform")
@@ -79,7 +83,7 @@ const Navbar = () => {
             ABOUT
            </motion.div>
 
-           <motion.div className="servicesnavigatio"
+           <motion.div className="servicesnavigatio" onClick={servicerollup}
             transition={{
               type:"spring",
               stiffness:100
@@ -141,7 +145,7 @@ const Navbar = () => {
             ABOUT
            </motion.div>
 
-           <motion.div className="servicesnavigation"
+           <motion.div className="servicesnavigation" onClick={servicerollup}
             transition={{
               type:"spring",
               stiffness:100

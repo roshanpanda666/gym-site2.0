@@ -10,6 +10,7 @@ import Testimonials from './components/testimonials'
 import Footer from './components/footer'
 import Gotoupbutton from './components/Gotoupbutton'
 import About from './components/about'
+import Services from './components/services'
 const App = () => {
   return (
     <div>
@@ -20,9 +21,10 @@ const App = () => {
       <Ourvalues></Ourvalues>
       <Faq></Faq>
       <Testimonials></Testimonials>
-      <Gotoupbutton></Gotoupbutton>
       <About></About>
-
+      <Services></Services>
+  
+      <Gotoupbutton></Gotoupbutton>
       <Footer></Footer>
       
     </div>

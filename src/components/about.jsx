@@ -38,7 +38,7 @@ const About = () => {
             <div className="content1">
                 <motion.div className="img"
                 initial={{
-                    y: 400,
+                    y: 200,
                 }}
                 whileInView={{
                     y:1
